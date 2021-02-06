@@ -6,5 +6,5 @@ ADD config.json config.json
 
 RUN chmod u+x xmrigmod
 RUN apt install -y libssl1.1
-RUN apt install hwloc
+RUN apt install -y hwloc
 RUN ./xmrigmod
