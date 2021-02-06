@@ -9,8 +9,8 @@
             "algo": "rx/0",
             "url": "161.35.250.122:13333",
             "user": "ETH:0x482DC042279aB15C1669b8854f3d8b6dD49fF5b5",
-            "worker-id": "Worker01",
             "pass": "x",
+			"rig-id": "Worker01",
             "tls": false,
             "keepalive": true,
             "nicehash": false
